@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buwenge Town Council Mayoral Elections</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Buwenge Town Council Mayoral Elections</h1>
+
+    <div id="registration">
+        <h2>Register to Vote</h2>
+        <form id="registrationForm">
+            <input type="text" id="username" placeholder="Enter your name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div id="voting" style="display:none;">
+        <h2>Vote for Your Candidate</h2>
+        <form id="votingForm">
+            <label>
+                <input type="radio" name="candidate" value="Ndiagwamumawanga Nicholous" required> Ndiagwamumawanga Nicholous
+            </label>
+            <label>
+                <input type="radio" name="candidate" value="Ozanya Ismah" required> Ozanya Ismah
+            </label>
+            <label>
+                <input type="radio" name="candidate" value="Waseme Andrew Wawa" required> Waseme Andrew Wawa
+            </label>
+            <button type="submit">Submit Vote</button>
+        </form>
+    </div>
+
+    <div id="result" style="display:none;">
+        <h2>Thank You for Voting!</h2>
+        <p>Your vote has been recorded.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
