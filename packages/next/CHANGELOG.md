@@ -1,5 +1,11 @@
 # @vercel/next
 
+## 4.3.17
+
+### Patch Changes
+
+- Revert disabling generation of route shells ([#12323](https://github.com/vercel/vercel/pull/12323))
+
 ## 4.3.16
 
 ### Patch Changes
